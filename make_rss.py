@@ -1,4 +1,3 @@
-import json
 import os
 import re
 import html
@@ -10,8 +9,9 @@ from bs4 import BeautifulSoup
 
 
 JST = timezone(timedelta(hours=9))
+
 HEADERS = {
-    "User-Agent": "Mozilla/5.0 (compatible; JudoRSS/1.0)"
+    "User-Agent": "Mozilla/5.0 (compatible; SumoRSS/1.0)"
 }
 
 
@@ -19,7 +19,7 @@ def clean(text):
     return re.sub(r"\s+", " ", text or "").strip()
 
 
-def rss_escape(text):
+def esc(text):
     return html.escape(clean(text), quote=True)
 
 
@@ -30,7 +30,7 @@ def fetch(url):
     return r.text
 
 
-def make_item(title, link, date="", source=""):
+def item(title, link, date="", source=""):
     return {
         "title": clean(title),
         "link": link,
@@ -40,24 +40,39 @@ def make_item(title, link, date="", source=""):
 
 
 # -------------------------
-# 福岡県柔道協会
+# 日本相撲連盟
 # -------------------------
-def get_fukuoka():
-    url = "https://fukuoka-judo.jp/"
+def get_nihonsumo():
+    url = "https://www.nihonsumo-renmei.jp/"
     soup = BeautifulSoup(fetch(url), "html.parser")
 
     items = []
     seen = set()
 
     for a in soup.find_all("a", href=True):
-        href = a.get("href", "")
         title = clean(a.get_text(" ", strip=True))
+        href = a.get("href", "")
 
         if not title:
             continue
 
-        # お知らせ詳細ページ
-        if "b_id=" not in href and "detail=" not in href:
+        # News Release の記事を中心に取得
+        if not (
+            "NEW" in title
+            or "お知らせ" in title
+            or "アンチ・ドーピング" in title
+            or "相撲" in title
+            or "審判" in title
+            or "大会" in title
+        ):
+            continue
+
+        # メニューなどを除外
+        if title in [
+            "トップページ",
+            "リンク",
+            "各種申請用紙"
+        ]:
             continue
 
         link = urljoin(url, href)
@@ -67,116 +82,140 @@ def get_fukuoka():
 
         seen.add(link)
 
-        parent_text = clean(a.parent.get_text(" ", strip=True))
-        m = re.search(r"20\d{2}[-/.]\d{1,2}[-/.]\d{1,2}", parent_text)
+        # タイトルやURLに日付が含まれていれば取得
+        date = ""
 
-        date = m.group(0).replace(".", "-").replace("/", "-") if m else ""
+        m = re.search(r"(20\d{2})[./_-]?(\d{2})[./_-]?(\d{2})", href)
+        if m:
+            date = f"{m.group(1)}-{m.group(2)}-{m.group(3)}"
 
         items.append(
-            make_item(
-                title=title,
+            item(
+                title=title.replace("【NEW】", "").strip(),
                 link=link,
                 date=date,
-                source="福岡県柔道協会"
+                source="日本相撲連盟"
             )
         )
 
-    return items
+    return items[:30]
 
 
 # -------------------------
-# 広島県柔道連盟
+# 日本女子相撲連盟
 # -------------------------
-def get_hiroshima():
-    url = "https://hiroshima-judo.com/"
+def get_joshisumo():
+    url = "https://www.joshisumo-renmei.jp/"
     soup = BeautifulSoup(fetch(url), "html.parser")
 
     items = []
     seen = set()
 
-    for a in soup.find_all("a", href=True):
-        href = a.get("href", "")
-        title = clean(a.get_text(" ", strip=True))
+    # ページ上の「令和○年○月○日」の近くにあるリンクを取得
+    text_nodes = soup.find_all(string=re.compile(r"令和\d+年"))
 
-        if not title:
-            continue
-
-        if "/posts/" not in href:
-            continue
-
-        link = urljoin(url, href)
-
-        if link in seen:
-            continue
-
-        seen.add(link)
-
-        block = a.parent
-        block_text = clean(block.get_text(" ", strip=True)) if block else title
+    for node in text_nodes:
+        text = clean(str(node))
 
         m = re.search(
-            r"20\d{2}[-/.年]\s*\d{1,2}[-/.月]\s*\d{1,2}",
-            block_text
+            r"令和(\d+)年\s*(\d{1,2})\s*月\s*(\d{1,2})日",
+            text
         )
-
-        date = ""
-        if m:
-            date = m.group(0)
-            date = (
-                date.replace("年", "-")
-                .replace("月", "-")
-                .replace("日", "")
-                .replace(".", "-")
-                .replace("/", "-")
-                .replace(" ", "")
-            )
-
-        items.append(
-            make_item(
-                title=title,
-                link=link,
-                date=date,
-                source="広島県柔道連盟"
-            )
-        )
-
-    return items
-
-
-# -------------------------
-# 愛媛県柔道協会
-# -------------------------
-def get_ehime():
-    url = "https://ehimejudo.jpn.org/"
-    soup = BeautifulSoup(fetch(url), "html.parser")
-
-    items = []
-    seen = set()
-
-    for a in soup.find_all("a", href=True):
-        title = clean(a.get_text(" ", strip=True))
-        href = a.get("href", "")
-
-        if not title:
-            continue
-
-        link = urljoin(url, href)
-
-        block = a.parent
-        text = clean(block.get_text(" ", strip=True)) if block else title
-
-        m = re.search(r"20\d{2}[./-]\d{2}[./-]\d{2}", text)
 
         if not m:
             continue
 
-        date = m.group(0).replace(".", "-").replace("/", "-")
+        year = 2018 + int(m.group(1))
+        month = int(m.group(2))
+        day = int(m.group(3))
 
-        # メニュー等を除外
+        date = f"{year:04d}-{month:02d}-{day:02d}"
+
+        parent = node.parent
+
+        # 日付の直後にあるリンクを探す
+        links = []
+
+        current = parent
+        count = 0
+
+        while current is not None and count < 8:
+            current = current.find_next()
+
+            if current is None:
+                break
+
+            if current.name == "a" and current.get("href"):
+                title = clean(current.get_text(" ", strip=True))
+
+                if title:
+                    links.append(current)
+
+            # 次の日付が来たら終了
+            if current.string:
+                t = clean(str(current.string))
+                if t != text and re.search(r"令和\d+年", t):
+                    break
+
+            count += 1
+
+        for a in links[:3]:
+            title = clean(a.get_text(" ", strip=True))
+            link = urljoin(url, a.get("href", ""))
+
+            key = date + title + link
+
+            if key in seen:
+                continue
+
+            seen.add(key)
+
+            items.append(
+                item(
+                    title=title,
+                    link=link,
+                    date=date,
+                    source="日本女子相撲連盟"
+                )
+            )
+
+    return items[:30]
+
+
+# -------------------------
+# 日本相撲協会
+# -------------------------
+def get_sumo():
+    url = "https://www.sumo.or.jp/"
+    soup = BeautifulSoup(fetch(url), "html.parser")
+
+    items = []
+    seen = set()
+
+    # NEWS欄では日付がリンク直前のテキストに入る
+    for a in soup.find_all("a", href=True):
+        title = clean(a.get_text(" ", strip=True))
+
+        if not title:
+            continue
+
+        parent = a.parent
+        text = clean(parent.get_text(" ", strip=True)) if parent else ""
+
+        m = re.search(r"(20\d{2})\.(\d{2})\.(\d{2})", text)
+
+        if not m:
+            continue
+
+        date = f"{m.group(1)}-{m.group(2)}-{m.group(3)}"
+
+        # NEWSに関係ないリンクをなるべく除外
         if len(title) < 4:
             continue
 
-        key = title + link
+        link = urljoin(url, a.get("href", ""))
+
+        key = date + title + link
 
         if key in seen:
             continue
@@ -184,21 +223,21 @@ def get_ehime():
         seen.add(key)
 
         items.append(
-            make_item(
+            item(
                 title=title,
                 link=link,
                 date=date,
-                source="愛媛県柔道協会"
+                source="日本相撲協会"
             )
         )
 
-    return items
+    return items[:50]
 
 
 def sort_items(items):
-    def key(item):
+    def key(x):
         try:
-            return datetime.strptime(item["date"], "%Y-%m-%d")
+            return datetime.strptime(x["date"], "%Y-%m-%d")
         except Exception:
             return datetime(1900, 1, 1)
 
@@ -206,51 +245,75 @@ def sort_items(items):
 
 
 def build_rss(title, description, link, items):
-    now = datetime.now(JST).strftime("%a, %d %b %Y %H:%M:%S %z")
+    now = datetime.now(JST).strftime(
+        "%a, %d %b %Y %H:%M:%S %z"
+    )
 
     xml = [
         '<?xml version="1.0" encoding="UTF-8"?>',
         '<rss version="2.0">',
         "<channel>",
-        f"<title>{rss_escape(title)}</title>",
-        f"<link>{rss_escape(link)}</link>",
-        f"<description>{rss_escape(description)}</description>",
+        f"<title>{esc(title)}</title>",
+        f"<link>{esc(link)}</link>",
+        f"<description>{esc(description)}</description>",
         "<language>ja</language>",
         f"<lastBuildDate>{now}</lastBuildDate>",
     ]
 
-    for item in items[:50]:
-        xml.append("<item>")
-        xml.append(
-            f"<title>{rss_escape('【' + item['source'] + '】' + item['title'])}</title>"
-        )
-        xml.append(f"<link>{rss_escape(item['link'])}</link>")
-        xml.append(f"<guid>{rss_escape(item['link'])}</guid>")
+    for x in sort_items(items)[:50]:
 
-        if item["date"]:
+        xml.append("<item>")
+
+        xml.append(
+            f"<title>{esc('【' + x['source'] + '】' + x['title'])}</title>"
+        )
+
+        xml.append(
+            f"<link>{esc(x['link'])}</link>"
+        )
+
+        xml.append(
+            f"<guid>{esc(x['link'])}</guid>"
+        )
+
+        if x["date"]:
             try:
-                dt = datetime.strptime(item["date"], "%Y-%m-%d")
-                dt = dt.replace(tzinfo=JST)
+                dt = datetime.strptime(
+                    x["date"],
+                    "%Y-%m-%d"
+                ).replace(tzinfo=JST)
+
                 xml.append(
                     f"<pubDate>{dt.strftime('%a, %d %b %Y %H:%M:%S %z')}</pubDate>"
                 )
+
             except Exception:
                 pass
 
         xml.append(
-            f"<description>{rss_escape(item['source'] + ' ' + item['title'])}</description>"
+            f"<description>{esc(x['source'] + ' ' + x['title'])}</description>"
         )
+
         xml.append("</item>")
 
-    xml.extend(["</channel>", "</rss>"])
+    xml.extend([
+        "</channel>",
+        "</rss>"
+    ])
 
     return "\n".join(xml)
 
 
 def save_feed(filename, title, description, link, items):
+
     os.makedirs("feeds", exist_ok=True)
 
-    xml = build_rss(title, description, link, sort_items(items))
+    xml = build_rss(
+        title,
+        description,
+        link,
+        items
+    )
 
     with open(
         os.path.join("feeds", filename),
@@ -261,34 +324,39 @@ def save_feed(filename, title, description, link, items):
 
 
 def main():
+
     all_items = []
 
     collectors = [
         (
-            "fukuoka.xml",
-            "福岡県柔道協会 更新情報",
-            "https://fukuoka-judo.jp/",
-            get_fukuoka
+            "nihonsumo.xml",
+            "日本相撲連盟 更新情報",
+            "https://www.nihonsumo-renmei.jp/",
+            get_nihonsumo
         ),
         (
-            "hiroshima.xml",
-            "広島県柔道連盟 更新情報",
-            "https://hiroshima-judo.com/",
-            get_hiroshima
+            "joshisumo.xml",
+            "日本女子相撲連盟 更新情報",
+            "https://www.joshisumo-renmei.jp/",
+            get_joshisumo
         ),
         (
-            "ehime.xml",
-            "愛媛県柔道協会 更新情報",
-            "https://ehimejudo.jpn.org/",
-            get_ehime
-        ),
+            "sumo.xml",
+            "日本相撲協会 更新情報",
+            "https://www.sumo.or.jp/",
+            get_sumo
+        )
     ]
 
     for filename, title, url, func in collectors:
+
         try:
+
             items = func()
 
-            print(f"{title}: {len(items)}件取得")
+            print(
+                f"{title}: {len(items)}件取得"
+            )
 
             save_feed(
                 filename,
@@ -301,12 +369,15 @@ def main():
             all_items.extend(items)
 
         except Exception as e:
-            print(f"{title}: 取得失敗: {e}")
+
+            print(
+                f"{title}: 取得失敗: {e}"
+            )
 
     save_feed(
         "all.xml",
-        "柔道関連サイト 更新情報",
-        "福岡県柔道協会・広島県柔道連盟・愛媛県柔道協会の更新情報",
+        "相撲関連サイト 更新情報",
+        "日本相撲連盟・日本女子相撲連盟・日本相撲協会の更新情報",
         "https://github.com/",
         all_items
     )
