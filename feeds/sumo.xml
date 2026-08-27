@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0">
 <channel>
-<title>相撲関連サイト 更新情報</title>
-<link>https://github.com/</link>
-<description>日本相撲連盟・日本女子相撲連盟・日本相撲協会の更新情報</description>
+<title>日本相撲協会 更新情報</title>
+<link>https://www.sumo.or.jp/</link>
+<description>日本相撲協会 更新情報を自動取得したRSSです。</description>
 <language>ja</language>
 <lastBuildDate>Thu, 27 Aug 2026 18:56:38 +0900</lastBuildDate>
 <item>
@@ -315,13 +315,6 @@
 <description>日本相撲協会 令和8年度夏期相撲大会等催事について</description>
 </item>
 <item>
-<title>【日本相撲連盟】立ち合いにおける「手（拳）のつく位置」について取り扱い変更のお知らせ</title>
-<link>https://www.nihonsumo-renmei.jp/pdf/news20260408.pdf</link>
-<guid>https://www.nihonsumo-renmei.jp/pdf/news20260408.pdf</guid>
-<pubDate>Wed, 08 Apr 2026 00:00:00 +0900</pubDate>
-<description>日本相撲連盟 立ち合いにおける「手（拳）のつく位置」について取り扱い変更のお知らせ</description>
-</item>
-<item>
 <title>【日本相撲協会】INFO 2026.03.16 令和8年夏巡業日程</title>
 <link>https://www.sumo.or.jp/Jungyo/schedule_2026/#2026summer</link>
 <guid>https://www.sumo.or.jp/Jungyo/schedule_2026/#2026summer</guid>
@@ -350,11 +343,18 @@
 <description>日本相撲協会 LINEスタンプ第2弾販売のお知らせ</description>
 </item>
 <item>
-<title>【日本相撲連盟】初心者向け審判講習会の開催について</title>
-<link>https://www.nihonsumo-renmei.jp/pdf/news2025081801.pdf</link>
-<guid>https://www.nihonsumo-renmei.jp/pdf/news2025081801.pdf</guid>
-<pubDate>Mon, 18 Aug 2025 00:00:00 +0900</pubDate>
-<description>日本相撲連盟 初心者向け審判講習会の開催について</description>
+<title>【日本相撲協会】「令和9年 本場所日程」を更新しました</title>
+<link>https://www.sumo.or.jp/Admission/schedule/</link>
+<guid>https://www.sumo.or.jp/Admission/schedule/</guid>
+<pubDate>Sat, 31 May 2025 00:00:00 +0900</pubDate>
+<description>日本相撲協会 「令和9年 本場所日程」を更新しました</description>
+</item>
+<item>
+<title>【日本相撲協会】「令和8年 本場所日程」を更新しました</title>
+<link>https://www.sumo.or.jp/Admission/schedule/</link>
+<guid>https://www.sumo.or.jp/Admission/schedule/</guid>
+<pubDate>Thu, 30 May 2024 00:00:00 +0900</pubDate>
+<description>日本相撲協会 「令和8年 本場所日程」を更新しました</description>
 </item>
 </channel>
 </rss>
