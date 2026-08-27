@@ -1,0 +1,19 @@
+{
+  "sites": [
+    {
+      "id": "fukuoka",
+      "name": "福岡県柔道協会",
+      "url": "https://fukuoka-judo.jp/"
+    },
+    {
+      "id": "hiroshima",
+      "name": "広島県柔道連盟",
+      "url": "https://hiroshima-judo.com/"
+    },
+    {
+      "id": "ehime",
+      "name": "愛媛県柔道協会",
+      "url": "http://www.ehimejudo.jpn.org/"
+    }
+  ]
+}
