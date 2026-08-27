@@ -147,7 +147,7 @@ def get_hiroshima():
 # 愛媛県柔道協会
 # -------------------------
 def get_ehime():
-    url = "https://www.ehimejudo.jpn.org/"
+    url = "https://ehimejudo.jpn.org/"
     soup = BeautifulSoup(fetch(url), "html.parser")
 
     items = []
@@ -279,7 +279,7 @@ def main():
         (
             "ehime.xml",
             "愛媛県柔道協会 更新情報",
-            "https://www.ehimejudo.jpn.org/",
+            "https://ehimejudo.jpn.org/",
             get_ehime
         ),
     ]
