@@ -5,7 +5,21 @@
 <link>https://www.sumo.or.jp/</link>
 <description>日本相撲協会 更新情報を自動取得したRSSです。</description>
 <language>ja</language>
-<lastBuildDate>Mon, 31 Aug 2026 06:04:47 +0900</lastBuildDate>
+<lastBuildDate>Mon, 31 Aug 2026 09:06:06 +0900</lastBuildDate>
+<item>
+<title>【日本相撲協会】令和8年九月場所番付トピックス</title>
+<link>https://www.sumo.or.jp/ResultBanzuke/topics/</link>
+<guid>https://www.sumo.or.jp/ResultBanzuke/topics/</guid>
+<pubDate>Mon, 31 Aug 2026 00:00:00 +0900</pubDate>
+<description>日本相撲協会 令和8年九月場所番付トピックス</description>
+</item>
+<item>
+<title>【日本相撲協会】大相撲九月場所番付発表</title>
+<link>https://www.sumo.or.jp/ResultBanzuke/table/</link>
+<guid>https://www.sumo.or.jp/ResultBanzuke/table/</guid>
+<pubDate>Mon, 31 Aug 2026 00:00:00 +0900</pubDate>
+<description>日本相撲協会 大相撲九月場所番付発表</description>
+</item>
 <item>
 <title>【日本相撲協会】「今日のラッキー星座占い」を更新しました</title>
 <link>https://www.sumo.or.jp/Fortune/</link>
@@ -154,13 +168,6 @@
 <description>日本相撲協会 令和8年春巡業「写真レポート」</description>
 </item>
 <item>
-<title>【日本相撲協会】大相撲七月場所「好取組十五番」を公開しました</title>
-<link>https://www.sumo.or.jp/ResultDataKoTorikumi15/wrap/</link>
-<guid>https://www.sumo.or.jp/ResultDataKoTorikumi15/wrap/</guid>
-<pubDate>Fri, 31 Jul 2026 00:00:00 +0900</pubDate>
-<description>日本相撲協会 大相撲七月場所「好取組十五番」を公開しました</description>
-</item>
-<item>
 <title>【日本相撲協会】本場所入場料金の改定について</title>
 <link>https://www.sumo.or.jp/IrohaKyokaiInformation/detail?id=757</link>
 <guid>https://www.sumo.or.jp/IrohaKyokaiInformation/detail?id=757</guid>
@@ -182,46 +189,11 @@
 <description>日本相撲協会 令和8年九月場所「新十両・再十両力士」情報を公開しました</description>
 </item>
 <item>
-<title>【日本相撲協会】大相撲七月場所「優勝三賞インタビュー」を公開しました</title>
-<link>https://www.sumo.or.jp/ResultData/interview/</link>
-<guid>https://www.sumo.or.jp/ResultData/interview/</guid>
-<pubDate>Tue, 28 Jul 2026 00:00:00 +0900</pubDate>
-<description>日本相撲協会 大相撲七月場所「優勝三賞インタビュー」を公開しました</description>
-</item>
-<item>
-<title>【日本相撲協会】「敢闘精神あふれる力士」アンケート結果を公開しました</title>
-<link>https://www.sumo.or.jp/ResultData/kanto_seishin/</link>
-<guid>https://www.sumo.or.jp/ResultData/kanto_seishin/</guid>
-<pubDate>Sun, 26 Jul 2026 00:00:00 +0900</pubDate>
-<description>日本相撲協会 「敢闘精神あふれる力士」アンケート結果を公開しました</description>
-</item>
-<item>
-<title>【日本相撲協会】大相撲七月場所「各段の優勝力士」「三賞力士」</title>
-<link>https://www.sumo.or.jp/ResultData/champions/</link>
-<guid>https://www.sumo.or.jp/ResultData/champions/</guid>
-<pubDate>Sun, 26 Jul 2026 00:00:00 +0900</pubDate>
-<description>日本相撲協会 大相撲七月場所「各段の優勝力士」「三賞力士」</description>
-</item>
-<item>
 <title>【日本相撲協会】引退のお知らせ</title>
 <link>https://www.sumo.or.jp/IrohaKyokaiInformation/detail?id=756</link>
 <guid>https://www.sumo.or.jp/IrohaKyokaiInformation/detail?id=756</guid>
 <pubDate>Sat, 25 Jul 2026 00:00:00 +0900</pubDate>
 <description>日本相撲協会 引退のお知らせ</description>
-</item>
-<item>
-<title>【日本相撲協会】大相撲七月場所「各段の成績優秀力士」</title>
-<link>https://www.sumo.or.jp/ResultData/leaders/</link>
-<guid>https://www.sumo.or.jp/ResultData/leaders/</guid>
-<pubDate>Sun, 12 Jul 2026 00:00:00 +0900</pubDate>
-<description>日本相撲協会 大相撲七月場所「各段の成績優秀力士」</description>
-</item>
-<item>
-<title>【日本相撲協会】「新弟子検査合格者一覧」を公開しました</title>
-<link>https://www.sumo.or.jp/ResultRikishiData/shin_deshi/</link>
-<guid>https://www.sumo.or.jp/ResultRikishiData/shin_deshi/</guid>
-<pubDate>Sun, 12 Jul 2026 00:00:00 +0900</pubDate>
-<description>日本相撲協会 「新弟子検査合格者一覧」を公開しました</description>
 </item>
 <item>
 <title>【日本相撲協会】大相撲九月場所「入場券情報」を公開しました</title>
@@ -250,27 +222,6 @@
 <guid>https://www.sumo.or.jp/IrohaKyokaiInformation/detail?id=754</guid>
 <pubDate>Wed, 01 Jul 2026 00:00:00 +0900</pubDate>
 <description>日本相撲協会 令和8年 第十六回 夏休み!!相撲健康体操 in 国技館</description>
-</item>
-<item>
-<title>【日本相撲協会】令和8年七月場所「場所前インタビュー」を公開しました</title>
-<link>https://www.sumo.or.jp/ResultBanzuke/interview/</link>
-<guid>https://www.sumo.or.jp/ResultBanzuke/interview/</guid>
-<pubDate>Tue, 30 Jun 2026 00:00:00 +0900</pubDate>
-<description>日本相撲協会 令和8年七月場所「場所前インタビュー」を公開しました</description>
-</item>
-<item>
-<title>【日本相撲協会】令和8年七月場所番付トピックス</title>
-<link>https://www.sumo.or.jp/ResultBanzuke/topics/</link>
-<guid>https://www.sumo.or.jp/ResultBanzuke/topics/</guid>
-<pubDate>Mon, 29 Jun 2026 00:00:00 +0900</pubDate>
-<description>日本相撲協会 令和8年七月場所番付トピックス</description>
-</item>
-<item>
-<title>【日本相撲協会】大相撲七月場所番付発表</title>
-<link>https://www.sumo.or.jp/ResultBanzuke/table/</link>
-<guid>https://www.sumo.or.jp/ResultBanzuke/table/</guid>
-<pubDate>Mon, 29 Jun 2026 00:00:00 +0900</pubDate>
-<description>日本相撲協会 大相撲七月場所番付発表</description>
 </item>
 <item>
 <title>【日本相撲協会】令和7年冬巡業「写真レポート」</title>
@@ -308,6 +259,13 @@
 <description>日本相撲協会 引退のお知らせ</description>
 </item>
 <item>
+<title>【日本相撲協会】腹タッチ会2026福岡～みんなで九州場所に向けて盛り上がろう！～</title>
+<link>https://www.sumo.or.jp/IrohaKyokaiInformation/detail?id=752</link>
+<guid>https://www.sumo.or.jp/IrohaKyokaiInformation/detail?id=752</guid>
+<pubDate>Mon, 25 May 2026 00:00:00 +0900</pubDate>
+<description>日本相撲協会 腹タッチ会2026福岡～みんなで九州場所に向けて盛り上がろう！～</description>
+</item>
+<item>
 <title>【日本相撲協会】令和8年九月場所「団体申し込み」情報を公開しました</title>
 <link>https://www.sumo.or.jp/Admission/ticket/Sep/party/637/</link>
 <guid>https://www.sumo.or.jp/Admission/ticket/Sep/party/637/</guid>
@@ -327,6 +285,48 @@
 <guid>https://poster.sumo.or.jp/</guid>
 <pubDate>Thu, 07 May 2026 00:00:00 +0900</pubDate>
 <description>日本相撲協会 令和8年九州場所 ポスターデザイン 作品募集！</description>
+</item>
+<item>
+<title>【日本相撲協会】令和8年度夏期相撲大会等催事について</title>
+<link>https://www.sumo.or.jp/IrohaShidoFukyubuEvent/wrap/</link>
+<guid>https://www.sumo.or.jp/IrohaShidoFukyubuEvent/wrap/</guid>
+<pubDate>Thu, 23 Apr 2026 00:00:00 +0900</pubDate>
+<description>日本相撲協会 令和8年度夏期相撲大会等催事について</description>
+</item>
+<item>
+<title>【日本相撲協会】引退のお知らせ</title>
+<link>https://www.sumo.or.jp/IrohaKyokaiInformation/detail?id=748</link>
+<guid>https://www.sumo.or.jp/IrohaKyokaiInformation/detail?id=748</guid>
+<pubDate>Mon, 06 Apr 2026 00:00:00 +0900</pubDate>
+<description>日本相撲協会 引退のお知らせ</description>
+</item>
+<item>
+<title>【日本相撲協会】横綱審議委員会による稽古総見の一般公開</title>
+<link>https://www.sumo.or.jp/IrohaKyokaiInformation/detail?id=746</link>
+<guid>https://www.sumo.or.jp/IrohaKyokaiInformation/detail?id=746</guid>
+<pubDate>Fri, 03 Apr 2026 00:00:00 +0900</pubDate>
+<description>日本相撲協会 横綱審議委員会による稽古総見の一般公開</description>
+</item>
+<item>
+<title>【日本相撲協会】転売行為に関する対応および措置について（令和7年 年間実績）</title>
+<link>https://www.sumo.or.jp/IrohaKyokaiInformation/detail?id=745</link>
+<guid>https://www.sumo.or.jp/IrohaKyokaiInformation/detail?id=745</guid>
+<pubDate>Fri, 03 Apr 2026 00:00:00 +0900</pubDate>
+<description>日本相撲協会 転売行為に関する対応および措置について（令和7年 年間実績）</description>
+</item>
+<item>
+<title>【日本相撲協会】大関 霧島 誕生</title>
+<link>https://www.sumo.or.jp/IrohaKyokaiInformation/detail?id=744</link>
+<guid>https://www.sumo.or.jp/IrohaKyokaiInformation/detail?id=744</guid>
+<pubDate>Wed, 25 Mar 2026 00:00:00 +0900</pubDate>
+<description>日本相撲協会 大関 霧島 誕生</description>
+</item>
+<item>
+<title>【日本相撲協会】引退のお知らせ</title>
+<link>https://www.sumo.or.jp/IrohaKyokaiInformation/detail?id=743</link>
+<guid>https://www.sumo.or.jp/IrohaKyokaiInformation/detail?id=743</guid>
+<pubDate>Mon, 23 Mar 2026 00:00:00 +0900</pubDate>
+<description>日本相撲協会 引退のお知らせ</description>
 </item>
 <item>
 <title>【日本相撲協会】INFO 2025.10.27 LINEスタンプ第2弾販売のお知らせ</title>
