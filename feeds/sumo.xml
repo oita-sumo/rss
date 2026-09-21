@@ -5,7 +5,14 @@
 <link>https://www.sumo.or.jp/</link>
 <description>日本相撲協会 更新情報を自動取得したRSSです。</description>
 <language>ja</language>
-<lastBuildDate>Mon, 21 Sep 2026 12:08:59 +0900</lastBuildDate>
+<lastBuildDate>Mon, 21 Sep 2026 15:12:07 +0900</lastBuildDate>
+<item>
+<title>【日本相撲協会】令和9年一月場所「団体申し込み」情報を公開しました</title>
+<link>https://www.sumo.or.jp/Admission/ticket/Jan/party/639/</link>
+<guid>https://www.sumo.or.jp/Admission/ticket/Jan/party/639/</guid>
+<pubDate>Mon, 21 Sep 2026 00:00:00 +0900</pubDate>
+<description>日本相撲協会 令和9年一月場所「団体申し込み」情報を公開しました</description>
+</item>
 <item>
 <title>【日本相撲協会】「今日のラッキー星座占い」を更新しました</title>
 <link>https://www.sumo.or.jp/Fortune/</link>
@@ -161,13 +168,6 @@
 <description>日本相撲協会 9/8(火)19:00～20:00 TBSテレビ「THE神業チャレンジ」</description>
 </item>
 <item>
-<title>【日本相撲協会】9/6(日)21:50～22:40 NHK総合「サンデースポーツ」</title>
-<link>https://www.web.nhk/tv/an/sunsat/pl/series-tep-QL31MN9ZQ4</link>
-<guid>https://www.web.nhk/tv/an/sunsat/pl/series-tep-QL31MN9ZQ4</guid>
-<pubDate>Fri, 04 Sep 2026 00:00:00 +0900</pubDate>
-<description>日本相撲協会 9/6(日)21:50～22:40 NHK総合「サンデースポーツ」</description>
-</item>
-<item>
 <title>【日本相撲協会】令和8年冬巡業日程</title>
 <link>https://www.sumo.or.jp/Jungyo/schedule_2026/#2026winter</link>
 <guid>https://www.sumo.or.jp/Jungyo/schedule_2026/#2026winter</guid>
@@ -308,11 +308,11 @@
 <description>日本相撲協会 令和7年冬巡業「写真レポート」</description>
 </item>
 <item>
-<title>【日本相撲協会】令和8年十一月場所「団体申し込み」を公開しました</title>
+<title>【日本相撲協会】令和8年十一月場所「団体申し込み」情報を公開しました</title>
 <link>https://www.sumo.or.jp/Admission/ticket/Nov/party/638/</link>
 <guid>https://www.sumo.or.jp/Admission/ticket/Nov/party/638/</guid>
 <pubDate>Tue, 09 Jun 2026 00:00:00 +0900</pubDate>
-<description>日本相撲協会 令和8年十一月場所「団体申し込み」を公開しました</description>
+<description>日本相撲協会 令和8年十一月場所「団体申し込み」情報を公開しました</description>
 </item>
 <item>
 <title>【日本相撲協会】令和8年秋巡業日程</title>
@@ -343,18 +343,18 @@
 <description>日本相撲協会 腹タッチ会2026福岡～みんなで九州場所に向けて盛り上がろう！～</description>
 </item>
 <item>
-<title>【日本相撲協会】令和8年九月場所「団体申し込み」情報を公開しました</title>
-<link>https://www.sumo.or.jp/Admission/ticket/Sep/party/637/</link>
-<guid>https://www.sumo.or.jp/Admission/ticket/Sep/party/637/</guid>
-<pubDate>Fri, 08 May 2026 00:00:00 +0900</pubDate>
-<description>日本相撲協会 令和8年九月場所「団体申し込み」情報を公開しました</description>
-</item>
-<item>
 <title>【日本相撲協会】令和8年九州場所 ポスターデザイン 作品募集！</title>
 <link>https://poster.sumo.or.jp/</link>
 <guid>https://poster.sumo.or.jp/</guid>
 <pubDate>Thu, 07 May 2026 00:00:00 +0900</pubDate>
 <description>日本相撲協会 令和8年九州場所 ポスターデザイン 作品募集！</description>
+</item>
+<item>
+<title>【日本相撲協会】令和8年度夏期相撲大会等催事について</title>
+<link>https://www.sumo.or.jp/IrohaShidoFukyubuEvent/wrap/</link>
+<guid>https://www.sumo.or.jp/IrohaShidoFukyubuEvent/wrap/</guid>
+<pubDate>Thu, 23 Apr 2026 00:00:00 +0900</pubDate>
+<description>日本相撲協会 令和8年度夏期相撲大会等催事について</description>
 </item>
 </channel>
 </rss>
