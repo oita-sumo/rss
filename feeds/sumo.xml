@@ -5,7 +5,21 @@
 <link>https://www.sumo.or.jp/</link>
 <description>日本相撲協会 更新情報を自動取得したRSSです。</description>
 <language>ja</language>
-<lastBuildDate>Fri, 25 Sep 2026 09:12:28 +0900</lastBuildDate>
+<lastBuildDate>Fri, 25 Sep 2026 12:08:27 +0900</lastBuildDate>
+<item>
+<title>【日本相撲協会】大相撲九月場所「各段の優勝力士」を更新しました</title>
+<link>https://www.sumo.or.jp/ResultData/champions/</link>
+<guid>https://www.sumo.or.jp/ResultData/champions/</guid>
+<pubDate>Fri, 25 Sep 2026 00:00:00 +0900</pubDate>
+<description>日本相撲協会 大相撲九月場所「各段の優勝力士」を更新しました</description>
+</item>
+<item>
+<title>【日本相撲協会】「今日のラッキー星座占い」を更新しました</title>
+<link>https://www.sumo.or.jp/Fortune/</link>
+<guid>https://www.sumo.or.jp/Fortune/</guid>
+<pubDate>Fri, 25 Sep 2026 00:00:00 +0900</pubDate>
+<description>日本相撲協会 「今日のラッキー星座占い」を更新しました</description>
+</item>
 <item>
 <title>【日本相撲協会】「敢闘精神あふれる力士」アンケート結果を公開しました</title>
 <link>https://www.sumo.or.jp/ResultData/kanto_seishin/</link>
@@ -19,13 +33,6 @@
 <guid>https://fanclub.sumo.or.jp/contents/1109384</guid>
 <pubDate>Thu, 24 Sep 2026 00:00:00 +0900</pubDate>
 <description>日本相撲協会 【 十三日目、十四日目・千秋楽 更新！】幕下以下の取組表をいち早く限定公開</description>
-</item>
-<item>
-<title>【日本相撲協会】「今日のラッキー星座占い」を更新しました</title>
-<link>https://www.sumo.or.jp/Fortune/</link>
-<guid>https://www.sumo.or.jp/Fortune/</guid>
-<pubDate>Thu, 24 Sep 2026 00:00:00 +0900</pubDate>
-<description>日本相撲協会 「今日のラッキー星座占い」を更新しました</description>
 </item>
 <item>
 <title>【日本相撲協会】令和9年一月場所「団体申し込み」情報を公開しました</title>
@@ -159,13 +166,6 @@
 <guid>https://www.sumo.or.jp/Watching/guide/tokyo/room/637/</guid>
 <pubDate>Mon, 07 Sep 2026 00:00:00 +0900</pubDate>
 <description>日本相撲協会 大相撲九月場所「会場で楽しむ」を公開しました</description>
-</item>
-<item>
-<title>【日本相撲協会】9/8(火)19:00～20:00 TBSテレビ「THE神業チャレンジ」</title>
-<link>https://www.tbs.co.jp/kamiwazachallenge_tbs/</link>
-<guid>https://www.tbs.co.jp/kamiwazachallenge_tbs/</guid>
-<pubDate>Fri, 04 Sep 2026 00:00:00 +0900</pubDate>
-<description>日本相撲協会 9/8(火)19:00～20:00 TBSテレビ「THE神業チャレンジ」</description>
 </item>
 <item>
 <title>【日本相撲協会】令和8年冬巡業日程</title>
@@ -322,13 +322,6 @@
 <description>日本相撲協会 令和8年秋巡業日程</description>
 </item>
 <item>
-<title>【日本相撲協会】「令和10年 本場所日程」を更新しました</title>
-<link>https://www.sumo.or.jp/Admission/schedule/</link>
-<guid>https://www.sumo.or.jp/Admission/schedule/</guid>
-<pubDate>Thu, 28 May 2026 00:00:00 +0900</pubDate>
-<description>日本相撲協会 「令和10年 本場所日程」を更新しました</description>
-</item>
-<item>
 <title>【日本相撲協会】引退のお知らせ</title>
 <link>https://www.sumo.or.jp/IrohaKyokaiInformation/detail?id=753</link>
 <guid>https://www.sumo.or.jp/IrohaKyokaiInformation/detail?id=753</guid>
@@ -355,6 +348,13 @@
 <guid>https://www.sumo.or.jp/IrohaShidoFukyubuEvent/wrap/</guid>
 <pubDate>Thu, 23 Apr 2026 00:00:00 +0900</pubDate>
 <description>日本相撲協会 令和8年度夏期相撲大会等催事について</description>
+</item>
+<item>
+<title>【日本相撲協会】引退のお知らせ</title>
+<link>https://www.sumo.or.jp/IrohaKyokaiInformation/detail?id=748</link>
+<guid>https://www.sumo.or.jp/IrohaKyokaiInformation/detail?id=748</guid>
+<pubDate>Mon, 06 Apr 2026 00:00:00 +0900</pubDate>
+<description>日本相撲協会 引退のお知らせ</description>
 </item>
 </channel>
 </rss>
