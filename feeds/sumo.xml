@@ -5,13 +5,20 @@
 <link>https://www.sumo.or.jp/</link>
 <description>日本相撲協会 更新情報を自動取得したRSSです。</description>
 <language>ja</language>
-<lastBuildDate>Sun, 25 Oct 2026 12:04:57 +0900</lastBuildDate>
+<lastBuildDate>Sun, 25 Oct 2026 19:39:38 +0900</lastBuildDate>
 <item>
-<title>【日本相撲協会】10/26(月)23:25〜0:10 NHK BS「スポーツ×ヒューマン選 それでも、土俵へ 〜大相撲 玉鷲（41）〜」</title>
+<title>【日本相撲協会】「今日のラッキー星座占い」を更新しました</title>
+<link>https://www.sumo.or.jp/Fortune/</link>
+<guid>https://www.sumo.or.jp/Fortune/</guid>
+<pubDate>Sun, 25 Oct 2026 00:00:00 +0900</pubDate>
+<description>日本相撲協会 「今日のラッキー星座占い」を更新しました</description>
+</item>
+<item>
+<title>【日本相撲協会】10/26(月)23:25〜0:10 NHKBS「スポーツ×ヒューマン選 それでも、土俵へ 〜大相撲 玉鷲（41）〜」</title>
 <link>https://www.web.nhk/tv/pl/series-tep-KQ8893GKX6</link>
 <guid>https://www.web.nhk/tv/pl/series-tep-KQ8893GKX6</guid>
 <pubDate>Fri, 23 Oct 2026 00:00:00 +0900</pubDate>
-<description>日本相撲協会 10/26(月)23:25〜0:10 NHK BS「スポーツ×ヒューマン選 それでも、土俵へ 〜大相撲 玉鷲（41）〜」</description>
+<description>日本相撲協会 10/26(月)23:25〜0:10 NHKBS「スポーツ×ヒューマン選 それでも、土俵へ 〜大相撲 玉鷲（41）〜」</description>
 </item>
 <item>
 <title>【日本相撲協会】10/26(月)19:00〜21:00 日本テレビ「有吉ゼミ」</title>
@@ -19,13 +26,6 @@
 <guid>https://www.ntv.co.jp/arizemi/</guid>
 <pubDate>Fri, 23 Oct 2026 00:00:00 +0900</pubDate>
 <description>日本相撲協会 10/26(月)19:00〜21:00 日本テレビ「有吉ゼミ」</description>
-</item>
-<item>
-<title>【日本相撲協会】「今日のラッキー星座占い」を更新しました</title>
-<link>https://www.sumo.or.jp/Fortune/</link>
-<guid>https://www.sumo.or.jp/Fortune/</guid>
-<pubDate>Fri, 23 Oct 2026 00:00:00 +0900</pubDate>
-<description>日本相撲協会 「今日のラッキー星座占い」を更新しました</description>
 </item>
 <item>
 <title>【日本相撲協会】令和9年三月場所「団体申し込み」情報を公開しました</title>
