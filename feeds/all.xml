@@ -5,20 +5,27 @@
 <link>https://github.com/</link>
 <description>日本相撲連盟・日本女子相撲連盟・日本相撲協会の更新情報</description>
 <language>ja</language>
-<lastBuildDate>Fri, 20 Nov 2026 10:59:47 +0900</lastBuildDate>
+<lastBuildDate>Fri, 20 Nov 2026 19:52:41 +0900</lastBuildDate>
+<item>
+<title>【日本相撲協会】「敢闘精神あふれる力士」アンケート結果を公開しました</title>
+<link>https://www.sumo.or.jp/ResultData/kanto_seishin/</link>
+<guid>https://www.sumo.or.jp/ResultData/kanto_seishin/</guid>
+<pubDate>Fri, 20 Nov 2026 00:00:00 +0900</pubDate>
+<description>日本相撲協会 「敢闘精神あふれる力士」アンケート結果を公開しました</description>
+</item>
+<item>
+<title>【日本相撲協会】大相撲十一月場所「各段の優勝力士」を更新しました</title>
+<link>https://www.sumo.or.jp/ResultData/champions/</link>
+<guid>https://www.sumo.or.jp/ResultData/champions/</guid>
+<pubDate>Fri, 20 Nov 2026 00:00:00 +0900</pubDate>
+<description>日本相撲協会 大相撲十一月場所「各段の優勝力士」を更新しました</description>
+</item>
 <item>
 <title>【日本相撲協会】「今日のラッキー星座占い」を更新しました</title>
 <link>https://www.sumo.or.jp/Fortune/</link>
 <guid>https://www.sumo.or.jp/Fortune/</guid>
 <pubDate>Fri, 20 Nov 2026 00:00:00 +0900</pubDate>
 <description>日本相撲協会 「今日のラッキー星座占い」を更新しました</description>
-</item>
-<item>
-<title>【日本相撲協会】「敢闘精神あふれる力士」アンケート結果を公開しました</title>
-<link>https://www.sumo.or.jp/ResultData/kanto_seishin/</link>
-<guid>https://www.sumo.or.jp/ResultData/kanto_seishin/</guid>
-<pubDate>Thu, 19 Nov 2026 00:00:00 +0900</pubDate>
-<description>日本相撲協会 「敢闘精神あふれる力士」アンケート結果を公開しました</description>
 </item>
 <item>
 <title>【日本相撲協会】【十三日目、十四日目・千秋楽 更新！】幕下以下の取組表をいち早く限定公開</title>
@@ -152,13 +159,6 @@
 <guid>https://bsfuji.tv/oozumousouken/pub/index.html</guid>
 <pubDate>Wed, 04 Nov 2026 00:00:00 +0900</pubDate>
 <description>日本相撲協会 11/7(土)20:00～21:55 BSフジ「感動！大相撲がっぷり総見〜一年総括！！九州場所を百倍楽しく見る極意〜」※再放送</description>
-</item>
-<item>
-<title>【日本相撲協会】11/7(土)18:40～19:30、11/8(日)5:10～6:00 NHKBS「大相撲どすこい研 出身地に不思議な法則アリ！？」</title>
-<link>https://www.web.nhk/tv/an/dosuken/pl/series-tep-G9W71XY6L3</link>
-<guid>https://www.web.nhk/tv/an/dosuken/pl/series-tep-G9W71XY6L3</guid>
-<pubDate>Wed, 04 Nov 2026 00:00:00 +0900</pubDate>
-<description>日本相撲協会 11/7(土)18:40～19:30、11/8(日)5:10～6:00 NHKBS「大相撲どすこい研 出身地に不思議な法則アリ！？」</description>
 </item>
 <item>
 <title>【日本相撲協会】令和8年十一月場所「場所前インタビュー」を公開しました</title>
@@ -350,11 +350,11 @@
 <description>日本相撲協会 令和8年十一月場所「団体申し込み」情報を公開しました</description>
 </item>
 <item>
-<title>【日本相撲協会】「令和10年 本場所日程」を更新しました</title>
-<link>https://www.sumo.or.jp/Admission/schedule/</link>
-<guid>https://www.sumo.or.jp/Admission/schedule/</guid>
-<pubDate>Thu, 28 May 2026 00:00:00 +0900</pubDate>
-<description>日本相撲協会 「令和10年 本場所日程」を更新しました</description>
+<title>【日本相撲協会】引退のお知らせ</title>
+<link>https://www.sumo.or.jp/IrohaKyokaiInformation/detail?id=753</link>
+<guid>https://www.sumo.or.jp/IrohaKyokaiInformation/detail?id=753</guid>
+<pubDate>Mon, 25 May 2026 00:00:00 +0900</pubDate>
+<description>日本相撲協会 引退のお知らせ</description>
 </item>
 </channel>
 </rss>
