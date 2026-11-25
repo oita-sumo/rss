@@ -5,20 +5,34 @@
 <link>https://www.sumo.or.jp/</link>
 <description>日本相撲協会 更新情報を自動取得したRSSです。</description>
 <language>ja</language>
-<lastBuildDate>Wed, 25 Nov 2026 04:54:47 +0900</lastBuildDate>
+<lastBuildDate>Wed, 25 Nov 2026 12:55:56 +0900</lastBuildDate>
+<item>
+<title>【日本相撲協会】「引退力士情報」を更新しました</title>
+<link>https://www.sumo.or.jp/ResultRikishiData/intai_rikishi/</link>
+<guid>https://www.sumo.or.jp/ResultRikishiData/intai_rikishi/</guid>
+<pubDate>Wed, 25 Nov 2026 00:00:00 +0900</pubDate>
+<description>日本相撲協会 「引退力士情報」を更新しました</description>
+</item>
+<item>
+<title>【日本相撲協会】令和9年一月場所「新十両・再十両力士」情報を公開しました</title>
+<link>https://www.sumo.or.jp/ResultBanzuke/shin_juryo/</link>
+<guid>https://www.sumo.or.jp/ResultBanzuke/shin_juryo/</guid>
+<pubDate>Wed, 25 Nov 2026 00:00:00 +0900</pubDate>
+<description>日本相撲協会 令和9年一月場所「新十両・再十両力士」情報を公開しました</description>
+</item>
+<item>
+<title>【日本相撲協会】「今日のラッキー星座占い」を更新しました</title>
+<link>https://www.sumo.or.jp/Fortune/</link>
+<guid>https://www.sumo.or.jp/Fortune/</guid>
+<pubDate>Wed, 25 Nov 2026 00:00:00 +0900</pubDate>
+<description>日本相撲協会 「今日のラッキー星座占い」を更新しました</description>
+</item>
 <item>
 <title>【日本相撲協会】令和8年十一月場所「優勝・三賞インタビュー」を公開しました</title>
 <link>https://www.sumo.or.jp/ResultData/interview/</link>
 <guid>https://www.sumo.or.jp/ResultData/interview/</guid>
 <pubDate>Tue, 24 Nov 2026 00:00:00 +0900</pubDate>
 <description>日本相撲協会 令和8年十一月場所「優勝・三賞インタビュー」を公開しました</description>
-</item>
-<item>
-<title>【日本相撲協会】「今日のラッキー星座占い」を更新しました</title>
-<link>https://www.sumo.or.jp/Fortune/</link>
-<guid>https://www.sumo.or.jp/Fortune/</guid>
-<pubDate>Tue, 24 Nov 2026 00:00:00 +0900</pubDate>
-<description>日本相撲協会 「今日のラッキー星座占い」を更新しました</description>
 </item>
 <item>
 <title>【日本相撲協会】SUMO 2026.11.22 大相撲十一月場所「各段の優勝力士」「三賞力士」を更新しました</title>
@@ -161,20 +175,6 @@
 <description>日本相撲協会 11/7(土)18:40～19:30、11/8(日)5:10～6:00 NHKBS「大相撲どすこい研 出身地に不思議な法則アリ！？」</description>
 </item>
 <item>
-<title>【日本相撲協会】11/6(金)20:00～21:00 フジテレビ「ウワサのお客さま」</title>
-<link>https://www.fujitv.co.jp/uwasanookyakusama/</link>
-<guid>https://www.fujitv.co.jp/uwasanookyakusama/</guid>
-<pubDate>Wed, 04 Nov 2026 00:00:00 +0900</pubDate>
-<description>日本相撲協会 11/6(金)20:00～21:00 フジテレビ「ウワサのお客さま」</description>
-</item>
-<item>
-<title>【日本相撲協会】11/6(金)19:55～20:41、11/7(土)11:08～11:54 NHK総合・九州沖縄「大相撲九州場所直前！あつまれふるさと力士」</title>
-<link>https://www.nhk.or.jp/fukuoka/info/articles/310/074/12/</link>
-<guid>https://www.nhk.or.jp/fukuoka/info/articles/310/074/12/</guid>
-<pubDate>Wed, 04 Nov 2026 00:00:00 +0900</pubDate>
-<description>日本相撲協会 11/6(金)19:55～20:41、11/7(土)11:08～11:54 NHK総合・九州沖縄「大相撲九州場所直前！あつまれふるさと力士」</description>
-</item>
-<item>
 <title>【日本相撲協会】令和8年十一月場所「場所前インタビュー」を公開しました</title>
 <link>https://www.sumo.or.jp/ResultBanzuke/interview/</link>
 <guid>https://www.sumo.or.jp/ResultBanzuke/interview/</guid>
@@ -222,20 +222,6 @@
 <guid>https://www.sumo.or.jp/IrohaKyokaiInformation/detail?id=764</guid>
 <pubDate>Thu, 01 Oct 2026 00:00:00 +0900</pubDate>
 <description>日本相撲協会 「大相撲バンコク公演」開催に関するお知らせ</description>
-</item>
-<item>
-<title>【日本相撲協会】「引退力士情報」を更新しました</title>
-<link>https://www.sumo.or.jp/ResultRikishiData/intai_rikishi/</link>
-<guid>https://www.sumo.or.jp/ResultRikishiData/intai_rikishi/</guid>
-<pubDate>Wed, 30 Sep 2026 00:00:00 +0900</pubDate>
-<description>日本相撲協会 「引退力士情報」を更新しました</description>
-</item>
-<item>
-<title>【日本相撲協会】令和8年十一月場所「新十両・再十両力士」情報を公開しました</title>
-<link>https://www.sumo.or.jp/ResultBanzuke/shin_juryo/</link>
-<guid>https://www.sumo.or.jp/ResultBanzuke/shin_juryo/</guid>
-<pubDate>Wed, 30 Sep 2026 00:00:00 +0900</pubDate>
-<description>日本相撲協会 令和8年十一月場所「新十両・再十両力士」情報を公開しました</description>
 </item>
 <item>
 <title>【日本相撲協会】引退のお知らせ</title>
@@ -348,6 +334,20 @@
 <guid>https://www.sumo.or.jp/IrohaShidoFukyubuEvent/wrap/</guid>
 <pubDate>Thu, 23 Apr 2026 00:00:00 +0900</pubDate>
 <description>日本相撲協会 令和8年度夏期相撲大会等催事について</description>
+</item>
+<item>
+<title>【日本相撲協会】引退のお知らせ</title>
+<link>https://www.sumo.or.jp/IrohaKyokaiInformation/detail?id=748</link>
+<guid>https://www.sumo.or.jp/IrohaKyokaiInformation/detail?id=748</guid>
+<pubDate>Mon, 06 Apr 2026 00:00:00 +0900</pubDate>
+<description>日本相撲協会 引退のお知らせ</description>
+</item>
+<item>
+<title>【日本相撲協会】横綱審議委員会による稽古総見の一般公開</title>
+<link>https://www.sumo.or.jp/IrohaKyokaiInformation/detail?id=746</link>
+<guid>https://www.sumo.or.jp/IrohaKyokaiInformation/detail?id=746</guid>
+<pubDate>Fri, 03 Apr 2026 00:00:00 +0900</pubDate>
+<description>日本相撲協会 横綱審議委員会による稽古総見の一般公開</description>
 </item>
 <item>
 <title>【日本相撲協会】「令和9年 本場所日程」を更新しました</title>
